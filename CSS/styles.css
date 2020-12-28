@@ -1,0 +1,162 @@
+/*https://media.giphy.com/media/gh620EMUy2usC9cfjb/giphy.gif opm
+https://media.giphy.com/media/XfUq4YqOcyHfrTEM5l/giphy.gif opm agreeing
+https://media.giphy.com/media/3ohc0YpD0LR5wRyz1S/giphy.gif db
+https://media.giphy.com/media/iIifSQSQUKteo/giphy.gif db flying
+https://media.giphy.com/media/3ohhwMDyS6rv3sB8yI/giphy.gif we transfer hi
+https://media.giphy.com/media/OmxPCq8ATFXig/giphy.gif mario
+https://media.giphy.com/media/iT5ingV2yAWgTyqkyn/giphy.gif helcurt
+https://media.giphy.com/media/3KR5UCnUMDEjWk514o/giphy.gif granger
+https://media.giphy.com/media/pYTIIXvmK4d3iqZW9D/giphy.gif gusion
+https://media.giphy.com/media/TS42kNnoQK0tkP5Maw/giphy.gif haya afk
+https://media.giphy.com/media/i1Z3oLdDJ9iu124xrX/giphy.gif haya easy
+https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif coding*/
+/*************************************************************************tag selector*************************************************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  margin: 25px auto;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  color: #40514E;
+}
+hr {
+  color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 5%;
+  margin: 100px auto;
+}
+p {
+  line-height: 2;
+}
+/*************************************************************************class selector*************************************************************************/
+.top-section {
+  position: relative;
+  padding-top: 178px;
+  background-color: #e0ebe8;
+}
+.middle-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bottom-section {
+background-color: #66BFBF;
+padding: 30px;
+}
+.top-cloud {
+  position: absolute;
+  right: 257px;
+  top: 150px;
+}
+.bot-cloud {
+  position: absolute;
+  left: 257px;
+  top: 250px;
+}
+.DB {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.contact-me {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.Contact-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 10px;
+   font-weight: 100;
+   padding: 12px;
+   background-color: #16A596;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.Contact-button:hover {
+   border: solid #D9ECF2 4px;
+   background: #16A596;
+   background-image: -webkit-linear-gradient(top, #16A596, #1AA6B7);
+   background-image: -moz-linear-gradient(top, #16A596, #1AA6B7);
+   background-image: -ms-linear-gradient(top, #16A596, #1AA6B7);
+   background-image: -o-linear-gradient(top, #16A596, #1AA6B7);
+   background-image: -webkit-gradient(to bottom, #16A596, #1AA6B7);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.footer-link {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 10px 20px;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+/*************************************************************************id selector*************************************************************************/
+#pro {
+  text-decoration: underline;
+}
+#hayabusa {
+  height: 250px;
+  width: 250px;
+}
+#programmar {
+  font-weight: normal;
+}
+#dp {
+  height: 125px;
+  width: 125px;
+}
+#code {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+#COD {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+#copyright {
+  margin-bottom: 0;
+  color: #EAF6F6;
+  font-size: 0.625em;
+}
